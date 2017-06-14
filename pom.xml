@@ -5,4 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MathLib</name>
   <description>MathLibrary</description>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>WINCTRL-MNEA79N-releases</name>
+        <url>http://localhost:8081/artifactory/lib-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>WINCTRL-MNEA79N-snapshots</name>
+        <url>http://localhost:8081/artifactory/lib-release-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
